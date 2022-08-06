@@ -1,0 +1,11 @@
+<template>
+    <template if:true={green}>
+        <lightning-badge label="Green" class="slds-badge slds-theme_success"></lightning-badge>
+    </template>
+    <template if:true={yellow}>
+        <lightning-badge label="Yellow" class="slds-badge slds-theme_warning"></lightning-badge>
+    </template>
+    <template if:true={red}>
+        <lightning-badge label="Red" class="slds-badge slds-theme_error "></lightning-badge>
+    </template>
+</template>
